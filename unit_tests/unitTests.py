@@ -5,4 +5,4 @@ def test_2add():
 
 def test_3add():
     a = 3+5
-    assert a==7
+    assert a==8
