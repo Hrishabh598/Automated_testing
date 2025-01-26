@@ -23,5 +23,8 @@ jobs:
       - name: install necessary modules
         run: pip install pytest requests
 
-      - name: Run Tests
+      - name: Run Unit Tests
+        run: pytest unit_tests/unitTests.py
+
+      - name: Run Api Tests
         run: pytest api_tests/apiTests.py
