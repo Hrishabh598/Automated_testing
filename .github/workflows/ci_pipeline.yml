@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: install Pytest
-        run: pip install pytest
+      - name: install necessary modules
+        run: pip install pytest requests
 
       - name: Run Tests
         run: pytest api_tests/apiTests.py
