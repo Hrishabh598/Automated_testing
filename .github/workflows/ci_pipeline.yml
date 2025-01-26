@@ -28,3 +28,4 @@ jobs:
 
       - name: Run Api Tests
         run: pytest api_tests/apiTests.py
+        run: pytest api_tests/http_post_test.py
